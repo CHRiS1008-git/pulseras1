@@ -282,10 +282,12 @@ header
 }
 
 .header-area .main-nav .logo {
+  font-family: "Dancing Script", cursive;
   line-height: 100px;
-  color: #00000042;
-  font-size: 28px;
-  font-weight: 700;
+  color: #6e00eb42;
+  
+  font-size: 30px;
+  font-weight: 2000;
   text-transform: uppercase;
   letter-spacing: 2px;
   float: left;
@@ -297,10 +299,13 @@ header
 
 .background-header .main-nav .logo {
   line-height: 75px;
+  
+
 }
 
 .background-header .nav {
   margin-top: 20px !important;
+  
 }
 
 .header-area .main-nav .nav {
@@ -563,9 +568,10 @@ header
   }
 }
 
+/*Color de letra para moviles en header*/
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: #6e00eb42;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
